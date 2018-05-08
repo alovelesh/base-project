@@ -4,9 +4,9 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "nodemon server | ng serve --proxy-config proxy.config.json",
+    "start": "node server",
     "build": "ng build --prod",
-    "test": "ng build && git add . && git commit -m \"start By npm test command\" && git pull && git push",
+    "test": "nodemon server | ng serve --proxy-config proxy.config.json",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },

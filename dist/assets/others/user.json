@@ -1,0 +1,289 @@
+[{
+    "email": "alovelesh@gmail.com",
+    "password": "e10adc3949ba59abbe56e057f20f883e",
+    "profileData": {
+        "image": {
+            "small": "",
+            "medium": "",
+            "original": ""
+        }
+    },
+    "isSideBarExpand": false,
+    "appMenus": [{
+        "controller_id": 23,
+        "name": "Demo",
+        "iconName": "dashboard"
+    }, {
+        "controller_id": 24,
+        "route": "tasks",
+        "name": "Task Management",
+        "parent_controller_id": 23,
+        "iconName": "assignment"
+    }, {
+        "controller_id": 1,
+        "name": "Masters",
+        "iconName": "perm_identity"
+    }, {
+        "controller_id": 2,
+        "route": "main",
+        "name": "Ledger Group",
+        "parent_controller_id": 1,
+        "iconName": "account_balance_wallet"
+    }, {
+        "controller_id": 3,
+        "route": "main",
+        "name": "Ledger",
+        "parent_controller_id": 1,
+        "iconName": "account_box"
+    }, {
+        "controller_id": 4,
+        "route": "",
+        "name": "Tax Category",
+        "parent_controller_id": 1,
+        "iconName": "account_balance"
+    }, {
+        "controller_id": 5,
+        "route": "",
+        "name": "Item Type",
+        "parent_controller_id": 1,
+        "iconName": "account_circle"
+    }, {
+        "controller_id": 6,
+        "route": "",
+        "name": "Item",
+        "parent_controller_id": 1,
+        "iconName": "assessment"
+    }, {
+        "controller_id": 7,
+        "name": "Transactions",
+        "iconName": "assignment"
+    }, {
+        "controller_id": 8,
+        "name": "Invoice",
+        "route": "invoice",
+        "parent_controller_id": 7,
+        "iconName": "assignment_return"
+    }, {
+        "controller_id": 9,
+        "name": "Payment",
+        "route": "payment",
+        "parent_controller_id": 7,
+        "iconName": "assignment_returned"
+    }, {
+        "controller_id": 10,
+        "name": "Return",
+        "route": "return",
+        "parent_controller_id": 7,
+        "iconName": "book"
+    }, {
+        "controller_id": 11,
+        "name": "Countra",
+        "route": "countra",
+        "parent_controller_id": 7,
+        "iconName": "bookmark"
+    }, {
+        "controller_id": 12,
+        "name": "Journal",
+        "route": "journal",
+        "parent_controller_id": 7,
+        "iconName": "bug_report"
+    }, {
+        "controller_id": 13,
+        "name": "Other Payment",
+        "route": "otherPayment",
+        "parent_controller_id": 7,
+        "iconName": "build"
+    }, {
+        "controller_id": 14,
+        "name": "Reports",
+        "iconName": "donut_small"
+    }, {
+        "controller_id": 15,
+        "name": "Trial Balance",
+        "route": "trialBalance",
+        "parent_controller_id": 14,
+        "iconName": "event_seat"
+    }, {
+        "controller_id": 16,
+        "name": "Balance Sheet",
+        "route": "balanceSheet",
+        "parent_controller_id": 14,
+        "iconName": "explore"
+    }, {
+        "controller_id": 17,
+        "name": "Profit & Loss",
+        "route": "profitAndLoss",
+        "parent_controller_id": 14,
+        "iconName": "extension"
+    }, {
+        "controller_id": 18,
+        "name": "User Management",
+        "iconName": "feedback"
+    }, {
+        "controller_id": 19,
+        "name": "User",
+        "route": "user",
+        "parent_controller_id": 18,
+        "iconName": "https"
+    }, {
+        "controller_id": 20,
+        "name": "Permission",
+        "route": "permission",
+        "parent_controller_id": 18,
+        "iconName": "info"
+    }, {
+        "controller_id": 21,
+        "name": "Company Management",
+        "route": "user",
+        "iconName": "label"
+    }, {
+        "controller_id": 22,
+        "name": "Menu Management",
+        "route": "user",
+        "iconName": "language"
+    }]
+}, {
+    "email": "agrawal.lovelesh@gmail.com",
+    "password": "e10adc3949ba59abbe56e057f20f883e",
+    "profileData": {
+        "image": {
+            "small": "",
+            "medium": "",
+            "original": ""
+        }
+    },
+    "isSideBarExpand": true,
+    "appMenus": [{
+        "controller_id": 23,
+        "name": "Demo",
+        "iconName": "dashboard"
+    }, {
+        "controller_id": 24,
+        "route": "tasks",
+        "name": "Task Management",
+        "parent_controller_id": 23,
+        "iconName": "assignment"
+    }, {
+        "controller_id": 1,
+        "name": "Masters",
+        "iconName": "perm_identity"
+    }, {
+        "controller_id": 2,
+        "route": "main",
+        "name": "Ledger Group",
+        "parent_controller_id": 1,
+        "iconName": "account_balance_wallet"
+    }, {
+        "controller_id": 3,
+        "route": "main",
+        "name": "Ledger",
+        "parent_controller_id": 1,
+        "iconName": "account_box"
+    }, {
+        "controller_id": 4,
+        "route": "",
+        "name": "Tax Category",
+        "parent_controller_id": 1,
+        "iconName": "account_balance"
+    }, {
+        "controller_id": 5,
+        "route": "",
+        "name": "Item Type",
+        "parent_controller_id": 1,
+        "iconName": "account_circle"
+    }, {
+        "controller_id": 6,
+        "route": "",
+        "name": "Item",
+        "parent_controller_id": 1,
+        "iconName": "assessment"
+    }, {
+        "controller_id": 7,
+        "name": "Transactions",
+        "iconName": "assignment"
+    }, {
+        "controller_id": 8,
+        "name": "Invoice",
+        "route": "invoice",
+        "parent_controller_id": 7,
+        "iconName": "assignment_return"
+    }, {
+        "controller_id": 9,
+        "name": "Payment",
+        "route": "payment",
+        "parent_controller_id": 7,
+        "iconName": "assignment_returned"
+    }, {
+        "controller_id": 10,
+        "name": "Return",
+        "route": "return",
+        "parent_controller_id": 7,
+        "iconName": "book"
+    }, {
+        "controller_id": 11,
+        "name": "Countra",
+        "route": "countra",
+        "parent_controller_id": 7,
+        "iconName": "bookmark"
+    }, {
+        "controller_id": 12,
+        "name": "Journal",
+        "route": "journal",
+        "parent_controller_id": 7,
+        "iconName": "bug_report"
+    }, {
+        "controller_id": 13,
+        "name": "Other Payment",
+        "route": "otherPayment",
+        "parent_controller_id": 7,
+        "iconName": "build"
+    }, {
+        "controller_id": 14,
+        "name": "Reports",
+        "iconName": "donut_small"
+    }, {
+        "controller_id": 15,
+        "name": "Trial Balance",
+        "route": "trialBalance",
+        "parent_controller_id": 14,
+        "iconName": "event_seat"
+    }, {
+        "controller_id": 16,
+        "name": "Balance Sheet",
+        "route": "balanceSheet",
+        "parent_controller_id": 14,
+        "iconName": "explore"
+    }, {
+        "controller_id": 17,
+        "name": "Profit & Loss",
+        "route": "profitAndLoss",
+        "parent_controller_id": 14,
+        "iconName": "extension"
+    }, {
+        "controller_id": 18,
+        "name": "User Management",
+        "iconName": "feedback"
+    }, {
+        "controller_id": 19,
+        "name": "User",
+        "route": "user",
+        "parent_controller_id": 18,
+        "iconName": "https"
+    }, {
+        "controller_id": 20,
+        "name": "Permission",
+        "route": "permission",
+        "parent_controller_id": 18,
+        "iconName": "info"
+    }, {
+        "controller_id": 21,
+        "name": "Company Management",
+        "route": "user",
+        "iconName": "label"
+    }, {
+        "controller_id": 22,
+        "name": "Menu Management",
+        "route": "user",
+        "iconName": "language"
+    }]
+}]

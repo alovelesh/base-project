@@ -1,0 +1,115 @@
+[
+  {
+    "component": "Add authentication",
+    "description": "Dubai POC",
+    "typeId": 2,
+    "type": "feature",
+    "status": "Pending",
+    "id": 1525268449339
+  },
+  {
+    "component": "Lovelesh",
+    "description": "Agrawal",
+    "typeId": 1,
+    "type": "bug",
+    "status": "Not yet started",
+    "id": 1525266579510
+  },
+  {
+    "id": 2,
+    "component": "SideNavbar",
+    "description": "On keyboard arrow click - expand menus issue",
+    "typeId": 1,
+    "type": "bug",
+    "status": "Not yet started"
+  },
+  {
+    "id": 3,
+    "component": "List...",
+    "description": "No record template in mat table",
+    "typeId": 3,
+    "type": "update",
+    "status": "Not yet started"
+  },
+  {
+    "id": 4,
+    "component": "List",
+    "description": "Multi Col Sorting in mat table",
+    "typeId": 3,
+    "type": "update",
+    "status": "Not yet started"
+  },
+  {
+    "id": 5,
+    "component": "NgMatDialogComponent",
+    "description": "Make more configurable",
+    "typeId": 3,
+    "type": "update",
+    "status": "Pending"
+  },
+  {
+    "id": 6,
+    "component": "DynamicFormComponent",
+    "description": "To create dynamic form",
+    "typeId": 2,
+    "type": "feature",
+    "status": "Not yet started"
+  },
+  {
+    "id": 7,
+    "component": "List",
+    "description": "Set table header column left align",
+    "typeId": 1,
+    "type": "bug",
+    "status": "Not yet started"
+  },
+  {
+    "id": 8,
+    "component": "List",
+    "description": "add footer with aggregation etc..",
+    "typeId": 2,
+    "type": "feature",
+    "status": "Done",
+    "remark": "Applicable only in case of serverInteraction flag is true."
+  },
+  {
+    "id": 9,
+    "component": "List",
+    "description": "Set column wise filtering",
+    "typeId": 2,
+    "type": "feature",
+    "status": "Not yet started"
+  },
+  {
+    "id": 10,
+    "component": "ThemeManagement(New)",
+    "description": "change theme functionality",
+    "typeId": 2,
+    "type": "feature",
+    "status": "Not yet started"
+  },
+  {
+    "id": 11,
+    "component": "DynamicFormComponent",
+    "description": "Add reset button",
+    "typeId": 2,
+    "type": "feature",
+    "status": "Not yet started"
+  },
+  {
+    "id": 12,
+    "component": "DynamicFormComponent",
+    "description": "Add check box component",
+    "typeId": 3,
+    "type": "update",
+    "status": "Not yet started"
+  },
+  {
+    "id": 13,
+    "component": "DynamicFormComponent",
+    "description": "Set radio inp",
+    "typeId": 1,
+    "type": "bug",
+    "status": "Not yet started"
+  }
+]

@@ -1,0 +1,44 @@
+Login
+Logout Component
+Menu Management CRUD & Apply 
+Theme Management CRUD & Apply 
+User Management
+User CRUD
+Role CRUD
+Permissions management for role (Menu level,Page Level,Ws Level)
+
+Default user will be created as admin for this company.
+"COMPANY – financial Year and Invoice freeze concept and inventory on/off
+When inventory off,then product details can not be inserted and calculated.
+When inventory on,then product details have to be inserted and calculate there stock etc."
+USER
+ROLE – Default Role- Admin – Not editable
+PERMISSION – View,Add,Edit,Delete,Print
+TAX CATEGORY
+LEDGER GROUP – Add dynamic property
+LEDGER – fill dynamic property according to LEDGER GROUP
+ITEM TYPE – Map Properties according to type
+                     Specs - Company,type,color etc (++++)
+ITEM – map item type and fill properties value
+                    Company – A,B,C (Multiselect)
+                    Type – Normal,Classy (Multiselect)
+                    Color – Red,Yellow,Pink (Multiselect)"
+
+Purchase
+"Invoice   CR = -
+              DR = +"
+Return
+Payment
+Sales
+Invoice
+Return
+Payment – Opening Bal payment
+Other Payment (Income and expense)
+Juneral
+Contra
+
+
+Forex Gain and Loss
+MultiCurrency
+
+Company creation will be subscription besis(No of company – charge per company)
