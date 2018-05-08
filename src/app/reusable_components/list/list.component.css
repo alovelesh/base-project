@@ -1,0 +1,80 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+.spinner-container {
+    height: 360px;
+    width: 390px;
+    position: fixed;
+}
+.example-header {
+  min-height: 64px;
+  padding: 8px 24px 0;
+}
+.main-fab {
+  position:absolute;
+}
+.main-fab + .example-header {
+  margin-left: 20px; 
+}
+.mat-fab {
+  width: 40px;
+  height: 40px;
+  outline: none;
+  opacity: 0.83;
+}
+/* Absolute Center Spinner */
+.loading-indicator {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+/* Transparent Overlay */
+.loading-indicator:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+/*Mat Overrite Class*/
+.mat-header-cell {   
+  font-weight: bold;
+}
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+.mat-header-row {
+  min-height: 40px;
+}
+.mat-row {
+  min-height: 46px;
+}
+mat-row:nth-child(even){
+  background-color:white;
+}
+mat-row:nth-child(odd){
+  background-color:#cccccc54;
+}
+mat-row.highlight{
+  background-color: #408dbc63;
+}
+mat-row.mat-row.totals-row {
+  position: sticky;
+  bottom: 0;
+  background-color: #6783b545;
+  border-top: 1px solid #CCC;
+  font-weight: bold;
+}

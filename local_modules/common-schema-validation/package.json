@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Nijiko Yonskai"
+  },
+  "description": "JSON Schema validation library for JavaScript / Node / Express.",
+  "license": "MIT",
+  "main": "validator.js",
+  "name": "common-schema-validation",
+  "version": "3.3.1"
+}

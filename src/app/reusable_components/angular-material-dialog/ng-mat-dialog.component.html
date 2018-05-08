@@ -1,0 +1,18 @@
+<button *ngIf="config.showCancelIcon" class="btn btn-link close" (click)="dialogRef.close()">
+	<mat-icon>cancel</mat-icon>
+</button>
+<div mat-dialog-title>
+	{{config.title}}
+</div>
+<mat-dialog-content>
+	<span>{{config.textContent}}</span>
+</mat-dialog-content>
+<br>
+<mat-dialog-actions>
+    <button class="mat-raised-button" (click)="dialogRef.close({ok:false})">
+	    <span class="mat-button-wrapper"><mat-icon>{{config.cancel.icon}}</mat-icon>{{config.cancel.text}}</span>
+	</button>
+	<button class="mat-raised-button" (click)="dialogRef.close({ok:true})">
+	    <span class="mat-button-wrapper"><mat-icon>{{config.ok.icon}}</mat-icon>{{config.ok.text}}</span>
+	</button>
+</mat-dialog-actions>

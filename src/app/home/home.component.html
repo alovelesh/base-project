@@ -1,0 +1,5 @@
+<app-header></app-header>
+<app-side-navbar></app-side-navbar>
+<section class="main-section" [ngClass]="{'collapse-menu':!commonService.isSideBarExpand}">
+	<router-outlet></router-outlet>
+</section>

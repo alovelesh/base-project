@@ -1,0 +1,20 @@
+<aside class="side-navbar" [ngClass]="{'collapse-menu':!commonService.isSideBarExpand}">
+    <input style="width: 100%;" [hidden]="!commonService.isSideBarExpand" id="filter" #filter (keyup)="tree.treeModel.filterNodes(filter.value)" placeholder="Search menus"/>
+    <div class="menu-holder">
+        <tree-root [nodes]="nodes" [focused]="true" [(state)]="state" #tree [options]="options" (initialized)="treeRootEvent($event)">
+          <ng-template #treeNodeTemplate let-node let-index="index">
+            <span [hidden]="!commonService.isSideBarExpand">
+                <mat-icon>{{node.data.iconName}}</mat-icon>
+                {{node.data.name}}
+            </span>
+            <div [hidden]="commonService.isSideBarExpand">
+                <span matTooltip="{{node.data.name}}" matTooltipPosition="after"><mat-icon>{{node.data.iconName}}</mat-icon></span>    
+            </div>
+          </ng-template>
+        </tree-root>
+    </div>
+    <div class="menu-toggle-icon">
+        <a href="javascript:void(0)" 
+        (click)="commonService.isSideBarExpand=!commonService.isSideBarExpand;menuToggle()" class="material-icons">{{commonService.isSideBarExpand ? 'keyboard_arrow_left' : 'keyboard_arrow_right'}}</a>
+    </div>
+</aside>

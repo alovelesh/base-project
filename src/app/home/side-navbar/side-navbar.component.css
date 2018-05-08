@@ -1,0 +1,166 @@
+
+/* For Larg Desktop */
+.side-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    min-height: 100%;
+    width: 230px;
+    z-index: 1;
+    background-color: #377ea9;
+    -webkit-transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.collapse-menu.side-navbar{
+    width: 35px; 
+}
+.menu-holder {
+    height: calc(100vh - 118px);
+    overflow-y: auto;    
+}
+.menu-toggle-icon {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #87bcde;
+    text-align: center;
+    padding-top: 7px;
+}
+/*.sidebar-menu{
+    white-space: nowrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+.sidebar-menu a{
+	font-size: 14px;
+    color: #b8c7ce;
+}
+.sidebar-menu > li {
+    position: relative;
+}
+.sidebar-menu > li > a {
+    padding: 0px 5px 0px 15px;
+    display: block;
+    position: relative;
+}
+.sidebar-menu > li a .fa{
+    width: 20px;
+}
+.sidebar-menu > li > a {
+    border-left: 3px solid transparent;
+}
+
+.sidebar-menu>li:hover > a{
+    background: #1e282c;
+    color: #fff;
+}
+.sidebar-menu >li.active > a {
+    border-left-color: #3c8dbc;
+    color: #fff;
+}
+
+.sidebar-menu > li > a span{
+    display: inline-block;
+    padding: 12px 5px 12px 0;
+    
+}
+
+.sidebar-menu > li:not(.treeview) > a >span {
+    border-bottom-right-radius: 4px;
+}
+.sidebar-menu > li > a span.pull-right-container {
+    float: right;
+    margin-top: 4px;
+}
+.sidebar-menu li > a > .pull-right-container > .fa-angle-left {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-right: 10px;
+}
+.treeview-menu {
+    display: none;
+    background: #2c3b41;
+    margin: 0;
+    padding-left: 5px;
+}
+.sidebar-menu >li.active .treeview-menu {
+    display: block;
+}
+.treeview-menu > li > a {
+    padding: 5px 5px 8px 15px;
+    display: block;
+}
+.treeview-menu li:hover a{
+    color: #fff;
+}
+.sidebar-menu > li:hover > a .fa-angle-left{
+    transform: rotate(-90deg);
+}*/
+
+
+
+/* For Small Desktop */
+/*.small .sidebar-menu >li.active .treeview-menu {
+    display: none;
+}
+.small.side-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    min-height: 100%;
+    width: 50px;
+    z-index: 1;
+    background-color: #222d32;
+    
+}
+.small .sidebar-menu > li > a {
+    padding: 12px 5px 12px 15px;
+    display: block;
+    position: relative;
+}
+.small .sidebar-menu > li > a span{
+    display: none;
+}
+
+.small .sidebar-menu > li:hover > a span{
+    display: block;
+    position: absolute;
+    width: 180px;
+    left: 50px;
+    border-top-right-radius: 4px;
+    top: 4px;
+    margin-left: -3px;
+    padding: 12px 5px 12px 20px;
+    background-color: #1e282c;
+}
+.small .sidebar-menu > li:hover > a span.pull-right-container {
+    position: relative;
+    float: right;
+    width: auto;
+    left: 180px;
+    top: -30px;
+    z-index: 3;
+}
+.small .treeview-menu {
+    display: none;
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    padding-left: 5px;
+    border-bottom-right-radius: 4px;
+    background: #2c3b41;
+}
+.small .sidebar-menu>li:hover .treeview-menu{
+    display: block;
+    position: absolute;
+    width: 180px;
+    left: 50px;
+} */
+
+

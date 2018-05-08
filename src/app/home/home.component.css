@@ -1,0 +1,10 @@
+.main-section{
+	margin-left: 230px;
+    transition: transform .3s ease-in-out,margin .3s ease-in-out;
+	background-color: #ecf0f5;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+}
+.collapse-menu.main-section{
+	margin-left: 35px; 
+}
