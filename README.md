@@ -1,6 +1,6 @@
-# Task Management
+# Base Project
 
-> See running application [here](https://nameless-mountain-69985.herokuapp.com)
+> See running application [here](https://peaceful-everglades-12847.herokuapp.com/)
 
 #### Login credentials list
 
@@ -9,11 +9,6 @@
 | alovelesh@gmail.com | 123456 |
 | agrawal.lovelesh@gmail.com | 123456 |
 
-Task management is used to managing task like creation, deleteion and updation.
-  - Show all task lists
-  - Able to add, delete and update task
-  - Able to search, sort.
-  - A lot of task data can be manage by pagination
   
 > The goal of this project to create CRUD forms using dynamic list and dynamic form in the minimum time(0.5Hr).
  #### Dynamic list is used to provide functionality of 
@@ -34,6 +29,12 @@ Task management is used to managing task like creation, deleteion and updation.
  - Column space
  - Field value, placeholder, label
  - Other options
+ #### Suppose i need to create task management CRUD then it is very easy by using Dynamic List and Dyna,ic Form
+ Task management is used to managing task like creation, deleteion and updation.
+  - Show all task lists
+  - Able to add, delete and update task
+  - Able to search, sort.
+  - A lot of task data can be manage by pagination
 
 ### Tech
 
@@ -47,7 +48,7 @@ This project uses a number of open source projects to work properly:
 ### Installation
 Take clone from
 ```
-$ git clone https://github.com/alovelesh/task-management.git
+$ git clone https://github.com/alovelesh/base-project.git
 ```
 Install the dependencies and devDependencies and start the server.
 
